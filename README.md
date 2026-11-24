@@ -2,9 +2,11 @@
 
 <h3>Antigravity &amp; Gemini Research / Software Engineering Skills</h3>
 
-[![GitHub Stars](https://img.shields.io/github/stars/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/network/members) [![GitHub Issues](https://img.shields.io/github/issues/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/issues) [![Last Commit](https://img.shields.io/github/last-commit/VictorNguyenLPN/skills?style=flat-square&logo=git)](https://github.com/VictorNguyenLPN/skills/commits/main) [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B%20(stdlib)-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Agent](https://img.shields.io/badge/agent-Antigravity%20%7C%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)](https://github.com/VictorNguyenLPN/skills)
+<img src="assets/gehihi-logo.svg" alt="Gehihi" width="500" />
 
-<img src="assets/gehihi-logo.svg" alt="Gehihi" width="400" />
+<br/>
+
+[![GitHub Stars](https://img.shields.io/github/stars/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/network/members) [![GitHub Issues](https://img.shields.io/github/issues/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/issues) [![Last Commit](https://img.shields.io/github/last-commit/VictorNguyenLPN/skills?style=flat-square&logo=git)](https://github.com/VictorNguyenLPN/skills/commits/main) [![Python 3.10+](<https://img.shields.io/badge/python-3.10%2B%20(stdlib)-3776AB?style=flat-square&logo=python&logoColor=white>)](https://www.python.org/) [![Agent](https://img.shields.io/badge/agent-Antigravity%20%7C%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)](https://github.com/VictorNguyenLPN/skills)
 
 </div>
 
@@ -29,12 +31,12 @@ cd skills
 
 ## Skills & Example Prompts
 
-| Skill | Scope | Example Prompt |
-| :--- | :--- | :--- |
-| `minimal-perf-code` | Remove `try/except` bloat, vectorize PyTorch/NumPy, reduce complexity | *"Use `minimal-perf-code` to strip fallbacks and vectorize `retriever.py`."* |
-| `lit-search-verify` | Search papers, structured reading, verify `.bib`/DOI/arXiv | *"Use `lit-search-verify` to check `refs.bib` and summarize ColBERT."* |
-| `technical-academic-writing` | Edit LaTeX/docs with zero AI slop and canonical SE/NLP/IR/CV terms | *"Use `technical-academic-writing` to polish `method.tex`, keeping all `\cite{}`."* |
-| `defect-review` | Read-only `P0`-`P3` diff review for bugs, ML leaks, and bloat | *"Use `defect-review` on `git diff` for data leaks or sync bottlenecks."* |
+| Skill                        | Scope                                                                 | Example Prompt                                                                      |
+| :--------------------------- | :-------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| `minimal-perf-code`          | Remove `try/except` bloat, vectorize PyTorch/NumPy, reduce complexity | _"Use `minimal-perf-code` to strip fallbacks and vectorize `retriever.py`."_        |
+| `lit-search-verify`          | Search papers, structured reading, verify `.bib`/DOI/arXiv            | _"Use `lit-search-verify` to check `refs.bib` and summarize ColBERT."_              |
+| `technical-academic-writing` | Edit LaTeX/docs with zero AI slop and canonical SE/NLP/IR/CV terms    | _"Use `technical-academic-writing` to polish `method.tex`, keeping all `\cite{}`."_ |
+| `defect-review`              | Read-only `P0`-`P3` diff review for bugs, ML leaks, and bloat         | _"Use `defect-review` on `git diff` for data leaks or sync bottlenecks."_           |
 
 ## CLI Tools (`lit-search-verify`)
 
