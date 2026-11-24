@@ -13,6 +13,7 @@ chmod +x "$REPO_ROOT/skills/lit-search-verify/scripts/verify_bibtex.py"
 ln -sfn "$REPO_ROOT/GEMINI.md" "$GEMINI_CFG_DIR/GEMINI.md"
 
 for manifest in "$GEMINI_CFG_DIR/skills.json" "$REPO_ROOT/skills.json"; do
+  rm -f "$manifest"
   cat > "$manifest" <<EOF
 {
   "entries": [
