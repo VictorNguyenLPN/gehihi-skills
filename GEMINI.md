@@ -12,8 +12,11 @@
 - Catch exceptions ONLY at external system boundaries (network I/O, external APIs, disk I/O, user input parsing) where recovery or structured reporting is explicitly required.
 
 ### Simplicity & Surgical Changes (YAGNI)
-- Write the minimum code that solves the exact problem.
+- Write the minimum code that solves the exact problem. Deletion beats addition.
+- **Laziness Ladder**: Before writing new code, check in order: (1) existing helper/pattern in the codebase, (2) standard library or native runtime feature, (3) already-installed dependency. Never add a dependency for a few lines of logic.
+- **Blast-Radius & Root-Cause Fix**: Before editing a function or fixing a bug, `grep` all callers, tests, and fixtures; fix the root cause once in shared code and update every affected caller.
 - Do NOT create single-use abstractions, wrapper classes, factories, deep inheritance hierarchies, or unrequested CLI flags and config layers.
+- Mark deliberate scaling shortcuts with `shortcut: <limit>, <upgrade trigger>`.
 - Modify only lines directly required by the task. Leave unrelated existing code, comments, and behavior untouched.
 
 ### Performance by Default

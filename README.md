@@ -2,11 +2,11 @@
 
 <h3>Antigravity &amp; Gemini Research / Software Engineering Skills</h3>
 
-<img src="assets/gehihi-logo.svg" alt="Gehihi" width="500" />
+<img src="assets/gehihi-logo.svg" alt="gehihi-skills" width="600" />
 
 <br/>
 
-[![GitHub Stars](https://img.shields.io/github/stars/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/network/members) [![GitHub Issues](https://img.shields.io/github/issues/VictorNguyenLPN/skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/skills/issues) [![Last Commit](https://img.shields.io/github/last-commit/VictorNguyenLPN/skills?style=flat-square&logo=git)](https://github.com/VictorNguyenLPN/skills/commits/main) [![Python 3.10+](<https://img.shields.io/badge/python-3.10%2B%20(stdlib)-3776AB?style=flat-square&logo=python&logoColor=white>)](https://www.python.org/) [![Agent](https://img.shields.io/badge/agent-Antigravity%20%7C%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)](https://github.com/VictorNguyenLPN/skills)
+[![GitHub Stars](https://img.shields.io/github/stars/VictorNguyenLPN/gehihi-skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/gehihi-skills/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/VictorNguyenLPN/gehihi-skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/gehihi-skills/network/members) [![GitHub Issues](https://img.shields.io/github/issues/VictorNguyenLPN/gehihi-skills?style=flat-square&logo=github)](https://github.com/VictorNguyenLPN/gehihi-skills/issues)
 
 </div>
 
@@ -22,8 +22,8 @@ Minimalist rules and modular `SKILL.md` workflows for **Google Antigravity** and
 Requires `bash`, `git`, and `python3` (stdlib only).
 
 ```bash
-git clone git@github.com:VictorNguyenLPN/skills.git
-cd skills
+git clone git@github.com:VictorNguyenLPN/gehihi-skills.git
+cd gehihi-skills
 ./scripts/install.sh
 ```
 
@@ -55,7 +55,19 @@ python3 skills/lit-search-verify/scripts/verify_bibtex.py --title "Attention Is 
 Link `GEMINI.md` inside any project repository:
 
 ```bash
-ln -s /path/to/skills/GEMINI.md /path/to/project/GEMINI.md
+ln -s /path/to/gehihi-skills/GEMINI.md /path/to/project/GEMINI.md
 ```
 
 To add a skill, create `skills/<skill-name>/SKILL.md` with `name` and `description` YAML frontmatter, then re-run `./scripts/install.sh`.
+
+## References & Acknowledgments
+
+Built upon and adapted from the following open-source skill repositories and engineering guidelines:
+
+- [anthropics/skills](https://github.com/anthropics/skills): `SKILL.md` open specification and progressive disclosure pattern.
+- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills): `karpathy-guidelines` (clarify before coding, simplicity first, surgical changes).
+- [obra/superpowers](https://github.com/obra/superpowers): Verification-before-completion and disciplined debugging workflows.
+- [openai/skills](https://github.com/openai/skills): `review-agent` read-only, defect-first (`P0`-`P3`) review rubric adapted for `defect-review`.
+- [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) & [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): Academic literature lookup and research workflow patterns.
+- [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) & [AIScientists-Dev/academic-humanizer](https://github.com/AIScientists-Dev/academic-humanizer): Anti-slop phrase filtering while preserving mathematical notation and citations.
+- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail): Laziness ladder, caller blast-radius checks, whole-repo lean auditing, and `shortcut:` technical debt ledger.
